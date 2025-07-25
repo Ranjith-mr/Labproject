@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    background-color: #8bc34a;
+   /* background-image: url("Clgimage.jpg"); */
+   
+   
+    text-align: center;
+    color: #003300;
+}
+
+.header h1 {
+    font-family: cursive;
+    text-align: center;
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px 100px;
+}
+
+.header h3 {
+    margin-top: 5px;
+}
+
+.nav-links {
+    margin-top: 10px;
+}
+
+.nav-links a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.sidebar a {
+    display: block;
+    margin: 10px 0;
+    color: blue;
+    text-decoration: none;
+}
+
+.main {
+    background-color: orange;
+    color: darkblue;
+    text-align: center;
+    padding: 40px;
+}
+  
+.logo {
+    float: left;
+    height: 70px;
+    width: auto;
+    margin: 10px 20px;
+}
+
+
+ 

@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Catalogue - Online Book Store</title>
+    <style>
+        body {
+            background-color: #ffd9e6;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            text-align: center;
+            color: #cc0066;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ff99c2;
+        }
+
+        td img {
+            width: 100px;
+            height: 120px;
+            object-fit: cover;
+        }
+
+        input[type="submit"] {
+            padding: 5px 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Book Catalogue</h2>
+
+    <table>
+        <tr>
+            <th>Book Cover</th>
+            <th>Details</th>
+            <th>Price</th>
+            <th>Add to Cart</th>
+        </tr>
+        <tr>
+            <td><img src="WEBBook.jpg" alt="Web Technologies"></td>
+            <td>
+                <strong>Book:</strong> Web Technologies<br>
+                <strong>Author:</strong> Uttam K. Roy<br>
+                <strong>Publication:</strong> Oxford University Press
+            </td>
+            <td>531</td>
+            <td><input type="submit" value="Add to cart"></td>
+        </tr>
+        <tr>
+            <td><img src="PHP&MYSQL.jpeg" alt="PHP & MySQL"></td>
+            <td>
+                <strong>Book:</strong> PHP & MySQL Web Development<br>
+                <strong>Author:</strong> Luke Welling & Laura Thomson<br>
+                <strong>Publication:</strong> PEARSON
+            </td>
+            <td>898</td>
+            <td><input type="submit" value="Add to cart"></td>
+        </tr>
+        <tr>
+            <td><img src="JavaBOOK.jpeg" alt="Java Programming"></td>
+            <td>
+                <strong>Book:</strong> Java: The Complete Reference<br>
+                <strong>Author:</strong> Herbert Schildt<br>
+                <strong>Publication:</strong> McGraw-Hill Education
+            </td>
+            <td>749</td>
+            <td><input type="submit" value="Add to cart"></td>
+        </tr>
+        <tr>
+            <td><img src="JavaBOOK.jpeg" alt="Data Structures"></td>
+            <td>
+                <strong>Book:</strong> Data Structures and Algorithms Made Easy<br>
+                <strong>Author:</strong> Narasimha Karumanchi<br>
+                <strong>Publication:</strong> CareerMonk
+            </td>
+            <td>620</td>
+            <td><input type="submit" value="Add to cart"></td>
+        </tr>
+        <tr>
+            <td><img src="PythonBook.jpeg" alt="Python Programming"></td>
+            <td>
+                <strong>Book:</strong> Python Crash Course<br>
+                <strong>Author:</strong> Eric Matthes<br>
+                <strong>Publication:</strong> No Starch Press
+            </td>
+            <td>699</td>
+            <td><input type="submit" value="Add to cart"></td>
+        </tr>
+        <tr>
+            <td><img src="DatabaseBook.jpeg" alt="DBMS"></td>
+            <td>
+                <strong>Book:</strong> Database System Concepts<br>
+                <strong>Author:</strong> Abraham Silberschatz, Henry F. Korth<br>
+                <strong>Publication:</strong> McGraw-Hill Education
+            </td>
+            <td>835</td>
+            <td><input type="submit" value="Add to cart"></td>
+        </tr>
+    </table>
+</body>
+</html>
